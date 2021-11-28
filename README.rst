@@ -35,5 +35,3 @@ Tests are done with ``pytest`` and can be run via::
   poetry run pytest
 
 Snakebids uses pre-commit hooks (installed via the ``poe setup`` command above) to lint and format code (we use `black <https://github.com/psf/black>`_, `isort <https://github.com/PyCQA/isort>`_, `pylint <https://pylint.org/>`_ and `flake8 <https://flake8.pycqa.org/en/latest/>`_). By default, these hooks are run on every commit. Please be sure they all pass before making a PR.
-
-test123
