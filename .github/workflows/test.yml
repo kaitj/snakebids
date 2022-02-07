@@ -119,7 +119,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Reviewer assignment
     needs: [test]
-    if: github.event_name == 'pull_request_target' && github.event.pull_request_target.assignee == null
+    if: github.event_name != 'push' && github.event.pull_request.assignee == null
 
     steps:
       - name: Assign reviewer
