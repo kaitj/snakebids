@@ -4,6 +4,8 @@ snakebids
 .. image:: https://readthedocs.org/projects/snakebids/badge/?version=latest
   :target: https://snakebids.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
+  
+Hello world!
 
 Snakemake + BIDS
 
