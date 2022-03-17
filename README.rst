@@ -5,6 +5,10 @@ snakebids
   :target: https://snakebids.readthedocs.io/en/latest/?badge=latest
   :alt: Documentation Status
 
+.. image:: https://zenodo.org/badge/309495236.svg
+  :target: https://zenodo.org/badge/latestdoi/309495236
+  :alt: Zenodo DOI
+
 Snakemake + BIDS
 
 This package allows you to build BIDS Apps using Snakemake. It offers:
