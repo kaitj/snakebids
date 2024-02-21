@@ -1,5 +1,6 @@
 version: 2
 updates:
+  # .github/workflows
   - package-ecosystem: "github-actions"
     # Workflow files stored in the default location of `.github/workflows`. 
     # (You don't need to specify `/.github/workflows` for `directory`. 
@@ -12,6 +13,18 @@ updates:
     labels:
       - "skip_changelog"
     # Group to submit a single PR if possible
+    groups:
+      github-actions:
+        patterns:
+          - "*"
+
+  # .github/actions
+  - package-ecosystem: "github-actions"
+    directory: "/.github/actions/"
+    schedule:
+      interval: "monthly"
+    labels:
+      - "skip_changelog"
     groups:
       github-actions:
         patterns:
